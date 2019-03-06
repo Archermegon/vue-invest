@@ -1,39 +1,43 @@
 /* 初始化标签 */
-*{
-  margin: 0;padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-a{
+a {
   text-decoration: none;
   color: #444;
   display: block;
 }
-ul{
+ul {
   list-style: none;
 }
-input{
+input {
   outline: none;
   background: #fff;
   border: none;
 }
-img{
+img {
   display: block;
   width: 100%;
 }
-body{
+body {
   font-size: 16px;
 }
-
+button {
+  border: none;
+  outline: none;
+}
 
 /* 字体图标 */
 
 @font-face {
-  font-family: 'iconfont';
-  src: url('../fonts/iconfont.eot');
-  src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/iconfont.woff2') format('woff2'),
-    url('../fonts/iconfont.woff') format('woff'),
-    url('../fonts/iconfont.ttf') format('truetype'),
-    url('../fonts/iconfont.svg#iconfont') format('svg');
+  font-family: "iconfont";
+  src: url("../fonts/iconfont.eot");
+  src: url("../fonts/iconfont.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/iconfont.woff2") format("woff2"),
+    url("../fonts/iconfont.woff") format("woff"),
+    url("../fonts/iconfont.ttf") format("truetype"),
+    url("../fonts/iconfont.svg#iconfont") format("svg");
 }
 
 .iconfont {

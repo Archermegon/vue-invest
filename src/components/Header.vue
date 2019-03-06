@@ -9,17 +9,18 @@
 
 <script>
 export default {
-  name:'headline',
-  props:["title","path"]
-}
+  name: "headline",
+  props: ["title", "path"]
+};
 </script>
 
 <style>
-header{
-   line-height: 1.3rem;
-   padding-left: 0.1rem;
+header {
+  line-height: 1.3rem;
+  padding-left: 0.1rem;
+  background: #fff;
 }
-header .iconfont{
+header .iconfont {
   margin-right: 10px;
 }
 </style>
